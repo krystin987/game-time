@@ -1,0 +1,12 @@
+body {
+  background-color: lightgrey;
+}
+#game {
+  border: 10px solid;
+  margin: auto;
+  display: block;
+}
+
+#score {
+  margin: auto;
+}
