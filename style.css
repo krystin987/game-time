@@ -10,3 +10,9 @@ body {
 #score {
   margin: auto;
 }
+
+.game-canvas {
+  border: 1px solid;
+  margin: auto;
+  display: block;
+}
