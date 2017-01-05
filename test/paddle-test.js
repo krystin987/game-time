@@ -2,6 +2,15 @@ var chai = require('chai');
 var assert = chai.assert;
 var Paddle = require('../lib/paddle');
 
-it('Paddle should be a function', function(){
-  assert.isFunction(Paddle);
+describe ('Paddle', function(){
+  context('default', function(){
+
+    it('Paddle should be a function', function(){
+      var paddle = new Paddle();
+      assert.isFunction(Paddle);
+    });
+
+
+
+  });
 });
