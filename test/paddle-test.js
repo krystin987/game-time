@@ -1,8 +1,7 @@
 var chai = require('chai');
 var assert = chai.assert;
 var Paddle = require('../lib/paddle');
-// var canvas = canvas;
-// var context = context;
+
 
 describe ('Paddle', function(){
   context('default', function(){
@@ -48,7 +47,7 @@ describe ('Paddle', function(){
       assert.equal(paddle.x, 6);
     });
 
-    
+
 
   });
 });
