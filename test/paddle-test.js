@@ -48,5 +48,7 @@ describe ('Paddle', function(){
       assert.equal(paddle.x, 6);
     });
 
+    
+
   });
 });
