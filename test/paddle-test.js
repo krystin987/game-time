@@ -6,12 +6,12 @@ var Paddle = require('../lib/paddle');
 describe ('Paddle', function(){
   context('default', function(){
       var paddle = new Paddle({
-      x: 370,
-      y: 10,
-      width: 180,
-      height: 20,
-      context: {},
-      canvas: {}
+      // x: 370,
+      // y: 10,
+      // width: 180,
+      // height: 20,
+      // context: {},
+      // canvas: {}
     });
 
     // The paddle should be a function
@@ -43,11 +43,10 @@ describe ('Paddle', function(){
       assert.equal(paddle.y, 10);
     });
 
-    it.skip('should increment x by 1 when the right arrow is pressed', function() {
-      assert.equal(paddle.x, 6);
-    });
-
-
+    // it('should increment x by 6 when the right arrow is pressed', function() {
+    //   paddle.movePaddle();
+    //   assert.equal(paddle.x, 376);
+    // });
 
   });
 });
