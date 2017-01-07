@@ -6,12 +6,13 @@ var Paddle = require('../lib/paddle');
 describe ('Paddle', function(){
   context('default', function(){
       var paddle = new Paddle({
-      // x: 370,
-      // y: 10,
+
+      x: 280,
+      y: 10,
       // width: 180,
       // height: 20,
-      // context: {},
-      // canvas: {}
+      context: {},
+      canvas: {}
     });
 
     // The paddle should be a function
@@ -24,7 +25,7 @@ describe ('Paddle', function(){
       assert.property(paddle, 'context');
     });
 
-    // The paddle should have a width
+    // The paddle should have a width and height
     it('Paddle should have a width of 180 by default', function() {
       assert.equal(paddle.width, 180);
     });
@@ -33,20 +34,26 @@ describe ('Paddle', function(){
       assert.equal(paddle.height, 20);
     });
 
-    // The paddle should have an x coordinate
+    // The paddle should have an x coordinate and y coordinate
     it('paddle should have a default value for x', function() {
-      assert.equal(paddle.x, 370);
+      assert.equal(paddle.x, 280);
     });
 
-// The paddle should have a y coordinate
     it('Paddle should have a value for y', function() {
       assert.equal(paddle.y, 10);
     });
 
-    // it('should increment x by 6 when the right arrow is pressed', function() {
-    //   paddle.movePaddle();
-    //   assert.equal(paddle.x, 376);
-    // });
+
+    // Paddle Should Move NEED TO PLAY WITH!!!!
+    it('should increment x by 6 when the right arrow is pressed', function() {
+      paddle.movePaddleRight();
+      assert.equal(paddle.x, 281);
+    });
+
+    it.skip('should decrement x by 6 when the right arrow is pressed', function() {
+      paddle.movePaddleLeft();
+      assert.equal(paddle.x, 274);
+    });
 
   });
 });
