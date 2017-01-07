@@ -6,6 +6,7 @@ var Paddle = require('../lib/paddle');
 describe ('Paddle', function(){
   context('default', function(){
       var paddle = new Paddle({
+
       x: 280,
       y: 10,
       // width: 180,
