@@ -37,19 +37,29 @@ describe ('Ball', function(){
       assert.equal(ball.y, 570);
     });
 
-    // The ball shouls have a move function
+    // The ball should have a move function
     it('Ball should have a move function', function(){
       assert.isFunction(ball.moveBall);
     })
 
-    // The ball should bounce in the move function
-    it('Ball should bounce in the move function', function(){
+    // The ball should move in the move function
+    it('Ball should move in the move function by incrementing the x and decrementing the y', function(){
       ball.moveBall();
       assert.equal(ball.x, 282)
       assert.equal(ball.y, 568)
     })
 
+    // The ball should have a bounce function
+    it('Ball should have a move function', function(){
+      assert.isFunction(ball.bounceBall);
+    })
 
+    // The ball should bounce off the walls NOT SURE ABOUT THIS TEST!!!!!!!
+    it('Ball should bounce off the walls, except the bottom', function(){
+      ball.bounceBall();
+      assert.equal(ball.dx, 2)
+      assert.equal(ball.dy, -2)
+    })
 
 
   });
