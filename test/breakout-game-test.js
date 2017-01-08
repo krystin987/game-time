@@ -1,6 +1,6 @@
-var Game = require('../lib/breakout-game');
 var chai = require('chai');
 var assert = chai.assert;
+var Game = require('../lib/breakout-game');
 
 describe ('Game', function() {
   context('default', function() {
@@ -54,8 +54,5 @@ describe ('Game', function() {
     it('should have a function for timing', function(){
       assert.isFunction(game.timing);
     });
-
   });
-
-
 });
