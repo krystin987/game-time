@@ -8,8 +8,6 @@ describe ('Paddle', function(){
       var paddle = new Paddle({
       x: 280,
       y: 10,
-      // width: 180,
-      // height: 20,
       context: {},
       canvas: {}
     });
