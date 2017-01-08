@@ -2,7 +2,6 @@ var chai = require('chai');
 var assert = chai.assert;
 var Ball = require('../lib/ball');
 
-
 describe ('Ball', function(){
   context('default', function(){
       var ball = new Ball({
@@ -19,7 +18,6 @@ describe ('Ball', function(){
     it('Ball should be a function', function() {
       assert.isFunction(Ball);
     });
-
 
     // The ball should have a radius
     it('Ball should have a radius of 8 by default', function() {
@@ -47,11 +45,6 @@ describe ('Ball', function(){
       ball.moveBall();
       assert.equal(ball.x, 282)
       assert.equal(ball.y, 568)
-    })
-
-
-
-
-
+    });
   });
 });
