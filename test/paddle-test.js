@@ -42,15 +42,15 @@ describe ('Paddle', function(){
 
 
     // Paddle Should Move NEED TO PLAY WITH!!!!
-    it('should increment x by 6 when the right arrow is pressed', function() {
-      paddle.movePaddleRight();
-      assert.equal(paddle.x, 281);
-    });
-
-    it.skip('should decrement x by 6 when the right arrow is pressed', function() {
-      paddle.movePaddleLeft();
-      assert.equal(paddle.x, 274);
-    });
+    // it('should increment x by 6 when the right arrow is pressed', function() {
+    //   paddle.movePaddleRight();
+    //   assert.equal(paddle.x, 281);
+    // });
+    //
+    // it.skip('should decrement x by 6 when the right arrow is pressed', function() {
+    //   paddle.movePaddleLeft();
+    //   assert.equal(paddle.x, 274);
+    // });
 
   });
 });
