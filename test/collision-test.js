@@ -19,9 +19,5 @@ describe ('Collision', function(){
 
     
 
-
-
-
-
   });
 });
