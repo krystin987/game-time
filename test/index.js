@@ -1,5 +1,5 @@
 require('./ball-test');
 require('./paddle-test');
-// require('./collision-test');
-// require('./blockwall-test.js');
+require('./collision-test');
+require('./blockwall-test');
 // // require('./scoreboard-test.js');
