@@ -9,8 +9,6 @@ describe ('Paddle', function(){
 
       x: 280,
       y: 10,
-      // width: 180,
-      // height: 20,
       context: {},
       canvas: {}
     });
