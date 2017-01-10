@@ -1,7 +1,10 @@
 body {
   background-color: lightgrey;
+  background-image: url(../images/tet-background.jpg);
+  background-image: no-repeat;
   font-family: 'Press Start 2P', cursive;
 }
+
 #game {
   border: 10px solid;
   margin: 10px;
@@ -31,8 +34,6 @@ h1 {
   margin-left: 25%;
 }
 
-/*.game-canvas {
-  border: 1px solid;
-  margin: auto;
-  display: block;
-}*/
+.game-canvas {
+  background-color: inherit;
+}
