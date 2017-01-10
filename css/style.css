@@ -1,18 +1,30 @@
 body {
   background-color: lightgrey;
+  font-family: 'Press Start 2P', cursive;
 }
 #game {
   border: 10px solid;
-  margin: auto;
-  display: block;
+  margin: 10px;
+  /*float: left;*/
 }
 
-#score {
-  margin: auto;
+#game-play {
+  float: right;
+  background-color: inherit;;
+  height: 580px;
+  border: 10px dotted black;
+  width: 35%;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
 }
 
-.game-canvas {
+h1 {
+  padding: 20px;
+}
+
+/*.game-canvas {
   border: 1px solid;
   margin: auto;
   display: block;
-}
+}*/
