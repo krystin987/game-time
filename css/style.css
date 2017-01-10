@@ -18,12 +18,20 @@ body {
   border: 10px dotted black;
   width: 35%;
   margin: 10px;
-  display: flex;
-  justify-content: center;
+
 }
+
+.score-section {
+  padding: 20px;
+  margin-left: 15%;
+  display: inline-block;
+}
+
 
 h1 {
   padding: 20px;
+  font-size: 20px;
+  margin-left: 25%;
 }
 
 .game-canvas {
