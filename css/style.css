@@ -5,30 +5,29 @@ body {
   font-family: 'Press Start 2P', cursive;
 }
 
-#game {
-  border: 10px solid;
-  margin: 10px;
-}
-
-#game-play {
-  float: right;
-  background-color: inherit;;
-  height: 580px;
-  border: 10px dotted black;
-  width: 35%;
-  margin: 10px;
-}
-
-
 p {
   padding: 20px 10px;
   margin-left: 10%;
 }
 
 h1 {
+  margin-left: 25%;
   padding: 20px;
   font-size: 26px;
-  margin-left: 25%;
+}
+
+#game {
+  margin: 10px;
+  border: 10px solid;
+}
+
+#game-play {
+  float: right;
+  margin: 10px;
+  width: 35%;
+  height: 580px;
+  border: 10px dotted black;
+  background-color: inherit;;
 }
 
 .game-canvas {
