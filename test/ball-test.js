@@ -38,13 +38,13 @@ describe ('Ball', function(){
     // The ball should have a move function
     it('Ball should have a move function', function(){
       assert.isFunction(ball.moveBall);
-    })
+    });
 
     // The ball should move in the move function
     it('Ball should move in the move function by incrementing the x and decrementing the y', function(){
       ball.moveBall();
-      assert.equal(ball.x, 282)
-      assert.equal(ball.y, 568)
+      assert.equal(ball.x, 282);
+      assert.equal(ball.y, 568);
     });
   });
 });
