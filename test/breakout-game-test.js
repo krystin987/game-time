@@ -90,11 +90,6 @@ describe('Game', function(){
         assert.isFunction(game.wallPaddleCollision);
       });
 
-      // it('when the ball collides with any canvas side or the game paddle, the ball should change direction', function(){
-      //
-      // });
-
-
     });
 
   });

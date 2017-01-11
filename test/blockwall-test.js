@@ -50,6 +50,5 @@ describe ('Blockwall', function(){
     it('Blockwall should have a blocks array', function(){
       assert.isArray(blockwall.blocks, [] );
     });
-
   });
 });
