@@ -45,11 +45,11 @@ describe ('Blockwall', function(){
 
     it('Blockwall should have a value for padding', function(){
       assert.equal(blockwall.padding, 10);
-    })
+    });
 
     it('Blockwall should have a blocks array', function(){
       assert.isArray(blockwall.blocks, [] );
-    })
+    });
 
   });
 });
