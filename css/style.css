@@ -1,8 +1,9 @@
 body {
-  background-color: lightgrey;
+  /*background-color: lightgrey;*/
   background-image: url(../media/tet-background.jpg);
   background-image: no-repeat;
   font-family: 'Press Start 2P', cursive;
+  color: white;
 }
 
 p {
@@ -19,7 +20,7 @@ h1 {
 #game {
   margin-top: 4%;
   margin-left: 4%;
-  border: 10px solid;
+  border: 10px solid #32CD32;
 }
 
 #game-play {
@@ -28,12 +29,12 @@ h1 {
   margin-right: 4%;
   width: 30%;
   height: 580px;
-  border: 10px dotted black;
-  background-color: inherit;;
+  border: 10px dotted #32CD32;
+  background-color: black;
 }
 
 .game-canvas {
-  background-color: inherit;
+    background-color: black;
 }
 
 .win-lose {
