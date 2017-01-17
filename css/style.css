@@ -1,36 +1,47 @@
 body {
   background-image: url(../media/vt-hall.jpg);
   background-repeat: no-repeat;
+  background-position: center top;
+  background-size:100%;
   color: white;
   font-family: 'Press Start 2P', cursive;
 }
 
 p {
-  margin-left: 10%;
-  padding: 20px 10px;
+  margin-left: 4%;
+  padding: 10px 5px;
   line-height: 30px;
 }
 
 h1 {
-  margin-left: 10%;
+  margin-top: 4%;
+  margin-left: 25%;
   padding: 20px;
   font-size: 30px;
 }
 
-#game {
+#score-label {
   margin-top: 4%;
-  margin-left: 4%;
+  margin-left: 25%;
+  padding: 20px;
+  font-size: 30px;
+}
+
+#game, #game-play {
+  margin-top: 4%;
   background-color: black;
+}
+
+#game {
+  margin-left: 10%;
   border: 10px solid #32CD32;
 }
 
 #game-play {
   float: right;
-  margin-top: 4%;
-  margin-right: 4%;
+  margin-right: 10%;
   width: 30%;
   height: 580px;
-  background-color: black;
   border: 10px dotted #32CD32;
 }
 
